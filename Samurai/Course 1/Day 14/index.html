@@ -37,12 +37,15 @@
       border: 3.5px solid whitesmoke;
       border-radius: 50%;
     }
+    section h1 {
+      position: absolute;
+      transition: 1s;
+
+    }
 
     .s1 h1 {
-      position: absolute;
       top: 40%;
       left: -150%;
-      transition: 2s linear;
     }
 
     /* Targets an <h1> element that is immediately adjacent to a <div> element when the <div> is being hovered over */
@@ -51,11 +54,9 @@
     }
 
     .s2 h1 {
-      position: absolute;
       top: 40%;
       left: 10%;
       opacity: 0;
-      transition: 1s;
     }
 
     .s2 div:hover+h1 {
