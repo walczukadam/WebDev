@@ -72,6 +72,19 @@ header button {
     }
 }
 
+@media (orientation: landscape) and (min-width: 640px) {
+    header h1 {
+        font-size: 24px;
+    }
+    header h2 {
+        font-size: 24px;
+    }
+    header button {
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+
 section {
     min-height: 100vh;
 }
