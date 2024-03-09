@@ -319,12 +319,26 @@ section {
     font-size: 28px;
   }
 
-  .features h4 {
+  .features h2 {
     font-size: 24px;
   }
-  
+
   .features p {
     font-size: 14px;
   }
+
+  @media (min-width:768px) {
+
+    .features h1 {
+      font-size: 34px;
+    }
+  
+    .features h2 {
+      font-size: 30px;
+    }
+    
+    .features p {
+      font-size: 18px;
+    }
 
 }
