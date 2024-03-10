@@ -341,4 +341,33 @@ section {
       font-size: 18px;
     }
 
+
+    @media (min-width:1024px) {
+
+      .features { 
+        margin-top: 50px;
+        padding: 5% 2%;
+        text-align: center;
+      
+      }
+
+      .feature {
+        float: left;
+        width: 33%;
+        padding: 20px;
+      }
+      .features h1 {
+        font-size: 36px;
+      }
+    
+      .features h2 {
+        font-size: 22px;
+      }
+      
+      .features p {
+        font-size: 16px;
+        line-height: 120%;
+        padding: 0 10px;
+      }
+
 }
