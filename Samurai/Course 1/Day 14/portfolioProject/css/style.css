@@ -370,4 +370,24 @@ section {
         padding: 0 10px;
       }
 
+@media (min-width:1600px) {
+
+
+  .feature {
+    padding: 20px 40px;
+  }
+  .features h1 {
+    font-size: 60px;
+  }
+
+  .features h2 {
+    font-size: 32px;
+  }
+  
+  .features p {
+    font-size: 21px;
+    line-height: 140%;
+    padding: 0 10px;
+  }
+}
 }
