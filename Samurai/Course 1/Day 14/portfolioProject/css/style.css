@@ -277,7 +277,7 @@ section {
   min-height: 30vh;
 }
 
-/* Sekcja 1 nasze cechy*/
+/* Section 1*/
 
 .features {
   max-width: 1600px;
@@ -326,49 +326,52 @@ section {
   .features p {
     font-size: 14px;
   }
+}
 
-  @media (min-width:768px) {
+@media (min-width:768px) {
 
-    .features h1 {
-      font-size: 34px;
-    }
-  
-    .features h2 {
-      font-size: 30px;
-    }
-    
-    .features p {
-      font-size: 18px;
-    }
+  .features h1 {
+    font-size: 34px;
+  }
 
+  .features h2 {
+    font-size: 30px;
+  }
 
-    @media (min-width:1024px) {
+  .features p {
+    font-size: 18px;
+  }
+}
 
-      .features { 
-        margin-top: 50px;
-        padding: 5% 2%;
-        text-align: center;
-      
-      }
+@media (min-width:1024px) {
 
-      .feature {
-        float: left;
-        width: 33%;
-        padding: 20px;
-      }
-      .features h1 {
-        font-size: 36px;
-      }
-    
-      .features h2 {
-        font-size: 22px;
-      }
-      
-      .features p {
-        font-size: 16px;
-        line-height: 120%;
-        padding: 0 10px;
-      }
+  .features {
+    margin-top: 50px;
+    padding: 5% 2%;
+    text-align: center;
+
+  }
+
+  .feature {
+    float: left;
+    width: 33%;
+    padding: 20px;
+  }
+
+  .features h1 {
+    font-size: 36px;
+  }
+
+  .features h2 {
+    font-size: 22px;
+  }
+
+  .features p {
+    font-size: 16px;
+    line-height: 120%;
+    padding: 0 10px;
+  }
+}
 
 @media (min-width:1600px) {
 
@@ -376,6 +379,7 @@ section {
   .feature {
     padding: 20px 40px;
   }
+
   .features h1 {
     font-size: 60px;
   }
@@ -383,11 +387,64 @@ section {
   .features h2 {
     font-size: 32px;
   }
-  
+
   .features p {
     font-size: 21px;
     line-height: 140%;
     padding: 0 10px;
   }
 }
+
+/* Section 2 */
+
+.portfolio {
+  background-color: black;
+  padding: 10px 0 30px;
+}
+
+.portfolio h1 {
+  font-size: 28px;
+  font-family: 'Saira Condensed', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+
+.portfolio .web img {
+  width: 100%;
+}
+
+.portfolio .about {
+  color: white;
+  font-family: 'Saira', sans-serif;
+  font-weight: normal;
+  padding: 10px 20px 20px 0px;
+  text-align: left;
+}
+
+.portfolio .about h2 {
+  font-size: 18px;
+  border-bottom: 2px solid white;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+}
+
+.portfolio .about p {
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.portfolio .about {
+  margin-bottom: 20px;
+}
+
+.portfolio .project:nth-of-type(odd) {
+  background-color: #ff4f2c;
+}
+
+.portfolio .project:nth-of-type(even) {
+  background-color: #29a6dc;
 }
