@@ -448,3 +448,21 @@ section {
 .portfolio .project:nth-of-type(even) {
   background-color: #29a6dc;
 }
+
+@media 
+@media (orientation: landscape) {
+
+  .web,
+  .about {
+    width: 50%;
+    float: left;
+  }
+
+  .web img {
+    display: block;
+  }
+
+  .portfolio .project:nth-of-type(even) .web {
+    float: right;
+  }
+}
