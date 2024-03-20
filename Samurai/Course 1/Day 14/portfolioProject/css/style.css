@@ -1,3 +1,10 @@
+/*
+font-family: 'Saira',
+sans-serif;
+font-family: 'Saira Condensed',
+sans-serif;
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +26,7 @@ header {
   margin: 0 auto;
 }
 
-header>* {
+header > * {
   position: absolute;
 }
 
@@ -35,7 +42,7 @@ header div.welcome {
   left: 5%;
   right: 5%;
   font-family: 'Saira Condensed',
-    sans-serif;
+  sans-serif;
   color: white;
   font-size: 40px;
   font-weight: bold;
@@ -70,7 +77,6 @@ header button {
   header h1 {
     font-size: 24px;
   }
-
   header h2 {
     font-size: 24px;
   }
@@ -86,7 +92,6 @@ header button {
   header h1 {
     font-size: 26px;
   }
-
   header h2 {
     font-size: 26px;
   }
@@ -106,11 +111,9 @@ header button {
   header p {
     font-size: 80px;
   }
-
   header h1 {
     font-size: 32px;
   }
-
   header h2 {
     font-size: 32px;
   }
@@ -133,13 +136,11 @@ header button {
     bottom: 0;
     right: -5%;
   }
-
   header div.welcome {
     top: 15%;
     left: 7%;
     right: 48%;
   }
-
   header button {
     margin-top: 40px;
   }
@@ -150,11 +151,9 @@ header button {
   header h1 {
     font-size: 24px;
   }
-
   header h2 {
     font-size: 24px;
   }
-
   header button {
     font-size: 16px;
     line-height: 40px;
@@ -170,16 +169,13 @@ header button {
   header p {
     font-size: 56px;
   }
-
   header h1 {
     margin-top: 40px;
     font-size: 34px;
   }
-
   header h2 {
     font-size: 34px;
   }
-
   header button {
     margin-top: 80px;
     font-size: 28px;
@@ -199,20 +195,16 @@ header button {
     text-align: left;
     left: 6%;
   }
-
   header p {
     font-size: 100px;
   }
-
   header h1 {
     margin-top: 40px;
     font-size: 50px;
   }
-
   header h2 {
     font-size: 50px;
   }
-
   header button {
     margin-top: 100px;
     font-size: 30px;
@@ -234,20 +226,16 @@ header button {
   header div.welcome {
     left: 8%;
   }
-
   header p {
     font-size: 120px;
   }
-
   header h1 {
     margin-top: 40px;
     font-size: 60px;
   }
-
   header h2 {
     font-size: 60px;
   }
-
   header button {
     line-height: 90px;
   }
@@ -265,7 +253,6 @@ header button {
     cursor: pointer;
     transition: .3s;
   }
-
   header button:hover {
     background-color: #fff;
     color: #111;
@@ -277,7 +264,7 @@ section {
   min-height: 30vh;
 }
 
-/* Section 1*/
+/* Sekcja 1 nasze cechy*/
 
 .features {
   max-width: 1600px;
@@ -288,20 +275,24 @@ section {
 }
 
 .features h1 {
-  font-family: 'Saira Condensed', sans-serif;
-  font-size: 24px;
+  font-family: 'Saira Condensed',
+  sans-serif;
+  font-size: 26px;
   text-transform: uppercase;
   margin-bottom: 15px;
+
 }
 
 .features h2 {
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Saira Condensed',
+  sans-serif;
   font-size: 22px;
   text-transform: uppercase;
 }
 
 .features p {
-  font-family: 'Saira', sans-serif;
+  font-family: 'Saira',
+  sans-serif;
   font-size: 12px;
   font-weight: 300;
   margin: 20px 0;
@@ -309,12 +300,11 @@ section {
 
 .features img {
   width: 100%;
-  margin: 20px 0;
+  margin: 5px 0;
   max-width: 375px;
 }
 
 @media (min-width:360px) {
-
   .features h1 {
     font-size: 28px;
   }
@@ -322,42 +312,36 @@ section {
   .features h2 {
     font-size: 24px;
   }
-
   .features p {
     font-size: 14px;
   }
 }
 
 @media (min-width:768px) {
-
   .features h1 {
-    font-size: 34px;
+    font-size: 36px;
   }
 
   .features h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
-
   .features p {
     font-size: 18px;
   }
 }
 
 @media (min-width:1024px) {
-
   .features {
     margin-top: 50px;
     padding: 5% 2%;
     text-align: center;
 
   }
-
   .feature {
     float: left;
     width: 33%;
     padding: 20px;
   }
-
   .features h1 {
     font-size: 36px;
   }
@@ -365,7 +349,6 @@ section {
   .features h2 {
     font-size: 22px;
   }
-
   .features p {
     font-size: 16px;
     line-height: 120%;
@@ -377,9 +360,9 @@ section {
 
 
   .feature {
-    padding: 20px 40px;
-  }
 
+    padding: 20px 50px;
+  }
   .features h1 {
     font-size: 60px;
   }
@@ -387,15 +370,12 @@ section {
   .features h2 {
     font-size: 32px;
   }
-
   .features p {
     font-size: 21px;
     line-height: 140%;
     padding: 0 10px;
   }
 }
-
-/* Section 2 */
 
 .portfolio {
   background-color: black;
@@ -404,7 +384,8 @@ section {
 
 .portfolio h1 {
   font-size: 28px;
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Saira Condensed',
+  sans-serif;
   text-transform: uppercase;
   color: white;
   text-align: center;
@@ -418,9 +399,10 @@ section {
 
 .portfolio .about {
   color: white;
-  font-family: 'Saira', sans-serif;
+  font-family: 'Saira',
+  sans-serif;
   font-weight: normal;
-  padding: 10px 20px 20px 0px;
+  padding: 10px 20px 20px 0;
   text-align: left;
 }
 
@@ -429,7 +411,7 @@ section {
   border-bottom: 2px solid white;
   margin-bottom: 12px;
   padding-bottom: 6px;
-  padding-left: 20px;
+  text-indent: 20px;
 }
 
 .portfolio .about p {
@@ -437,8 +419,9 @@ section {
   padding-left: 20px;
 }
 
-.portfolio .about {
-  margin-bottom: 20px;
+.portfolio .project {
+  max-width: 1400px;
+  margin: 0 auto 20px;
 }
 
 .portfolio .project:nth-of-type(odd) {
@@ -449,9 +432,29 @@ section {
   background-color: #29a6dc;
 }
 
-@media 
-@media (orientation: landscape) {
+@media (min-width:768px) {
 
+  .portfolio h1 {
+    font-size: 40px;
+  }
+
+  .portfolio .about h2 {
+    font-size: 28px;
+    text-indent: 40px;
+  }
+
+  .portfolio .about p {
+    font-size: 18px;
+    padding-left: 40px;
+  }
+
+  .portfolio .project {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media (orientation: landscape) {
   .web,
   .about {
     width: 50%;
@@ -464,5 +467,63 @@ section {
 
   .portfolio .project:nth-of-type(even) .web {
     float: right;
+
+  }
+  .portfolio .project:nth-of-type(even) .about {
+    padding-right: 0;
+  }
+  .portfolio .project:nth-of-type(even) .about p {
+    padding-right: 20px;
+  }
+  .portfolio .project:nth-of-type(even) .about h2 {
+    text-indent: 0;
+    margin-left: 40px;
+  }
+
+
+}
+
+
+@media (orientation: landscape) and (min-width: 1400px) {
+  .portfolio h1 {
+    font-size: 60px;
+    padding: 30px 0;
+  }
+
+  .portfolio .about h2 {
+    padding-top: 50px;
+    font-size: 28px;
+    text-indent: 40px;
+    margin-bottom: 50px;
+  }
+
+  .portfolio .about p {
+    font-size: 18px;
+    padding-left: 40px;
+    line-height: 180%;
+  }
+
+  .portfolio .project {
+    margin-bottom: 40px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
