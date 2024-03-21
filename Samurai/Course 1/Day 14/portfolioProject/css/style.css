@@ -544,3 +544,60 @@ footer {
   background-color: rgba(0, 63, 114, 0.5);
   /*  #003f72*/
 }
+
+@media (orientation: landscape) {
+  .slogan p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .slogan .bg {
+    padding: 50px 10px;
+
+  }
+
+  .slogan h1 {
+    font-size: 48px;
+    margin-bottom: 35px;
+
+  }
+
+  .slogan p {
+    font-size: 26px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .slogan p.author {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .slogan .bg {
+    padding: 80px 10px;
+
+  }
+
+  .slogan h1 {
+    font-size: 60px;
+    margin-bottom: 55px;
+
+  }
+
+  .slogan p {
+    font-size: 40px;
+    width: 50%;
+  }
+
+  .slogan p.author {
+    margin-top: 40px;
+    font-size: 26px;
+  }
+}
