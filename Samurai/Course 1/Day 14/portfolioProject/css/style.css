@@ -26,7 +26,7 @@ header {
   margin: 0 auto;
 }
 
-header > * {
+header>* {
   position: absolute;
 }
 
@@ -42,7 +42,7 @@ header div.welcome {
   left: 5%;
   right: 5%;
   font-family: 'Saira Condensed',
-  sans-serif;
+    sans-serif;
   color: white;
   font-size: 40px;
   font-weight: bold;
@@ -77,6 +77,7 @@ header button {
   header h1 {
     font-size: 24px;
   }
+
   header h2 {
     font-size: 24px;
   }
@@ -92,6 +93,7 @@ header button {
   header h1 {
     font-size: 26px;
   }
+
   header h2 {
     font-size: 26px;
   }
@@ -111,9 +113,11 @@ header button {
   header p {
     font-size: 80px;
   }
+
   header h1 {
     font-size: 32px;
   }
+
   header h2 {
     font-size: 32px;
   }
@@ -136,11 +140,13 @@ header button {
     bottom: 0;
     right: -5%;
   }
+
   header div.welcome {
     top: 15%;
     left: 7%;
     right: 48%;
   }
+
   header button {
     margin-top: 40px;
   }
@@ -151,9 +157,11 @@ header button {
   header h1 {
     font-size: 24px;
   }
+
   header h2 {
     font-size: 24px;
   }
+
   header button {
     font-size: 16px;
     line-height: 40px;
@@ -169,13 +177,16 @@ header button {
   header p {
     font-size: 56px;
   }
+
   header h1 {
     margin-top: 40px;
     font-size: 34px;
   }
+
   header h2 {
     font-size: 34px;
   }
+
   header button {
     margin-top: 80px;
     font-size: 28px;
@@ -195,16 +206,20 @@ header button {
     text-align: left;
     left: 6%;
   }
+
   header p {
     font-size: 100px;
   }
+
   header h1 {
     margin-top: 40px;
     font-size: 50px;
   }
+
   header h2 {
     font-size: 50px;
   }
+
   header button {
     margin-top: 100px;
     font-size: 30px;
@@ -226,16 +241,20 @@ header button {
   header div.welcome {
     left: 8%;
   }
+
   header p {
     font-size: 120px;
   }
+
   header h1 {
     margin-top: 40px;
     font-size: 60px;
   }
+
   header h2 {
     font-size: 60px;
   }
+
   header button {
     line-height: 90px;
   }
@@ -253,6 +272,7 @@ header button {
     cursor: pointer;
     transition: .3s;
   }
+
   header button:hover {
     background-color: #fff;
     color: #111;
@@ -276,7 +296,7 @@ footer {
 
 .features h1 {
   font-family: 'Saira Condensed',
-  sans-serif;
+    sans-serif;
   font-size: 26px;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -285,14 +305,14 @@ footer {
 
 .features h2 {
   font-family: 'Saira Condensed',
-  sans-serif;
+    sans-serif;
   font-size: 22px;
   text-transform: uppercase;
 }
 
 .features p {
   font-family: 'Saira',
-  sans-serif;
+    sans-serif;
   font-size: 12px;
   font-weight: 300;
   margin: 20px 0;
@@ -312,6 +332,7 @@ footer {
   .features h2 {
     font-size: 24px;
   }
+
   .features p {
     font-size: 14px;
   }
@@ -325,6 +346,7 @@ footer {
   .features h2 {
     font-size: 28px;
   }
+
   .features p {
     font-size: 18px;
   }
@@ -337,11 +359,13 @@ footer {
     text-align: center;
 
   }
+
   .feature {
     float: left;
     width: 33%;
     padding: 20px;
   }
+
   .features h1 {
     font-size: 36px;
   }
@@ -349,6 +373,7 @@ footer {
   .features h2 {
     font-size: 22px;
   }
+
   .features p {
     font-size: 16px;
     line-height: 120%;
@@ -363,6 +388,7 @@ footer {
 
     padding: 20px 50px;
   }
+
   .features h1 {
     font-size: 60px;
   }
@@ -370,6 +396,7 @@ footer {
   .features h2 {
     font-size: 32px;
   }
+
   .features p {
     font-size: 21px;
     line-height: 140%;
@@ -385,7 +412,7 @@ footer {
 .portfolio h1 {
   font-size: 28px;
   font-family: 'Saira Condensed',
-  sans-serif;
+    sans-serif;
   text-transform: uppercase;
   color: white;
   text-align: center;
@@ -400,7 +427,7 @@ footer {
 .portfolio .about {
   color: white;
   font-family: 'Saira',
-  sans-serif;
+    sans-serif;
   font-weight: normal;
   padding: 10px 20px 20px 0;
   text-align: left;
@@ -455,6 +482,7 @@ footer {
 }
 
 @media (orientation: landscape) {
+
   .web,
   .about {
     width: 50%;
@@ -469,12 +497,15 @@ footer {
     float: right;
 
   }
+
   .portfolio .project:nth-of-type(even) .about {
     padding-right: 0;
   }
+
   .portfolio .project:nth-of-type(even) .about p {
     padding-right: 20px;
   }
+
   .portfolio .project:nth-of-type(even) .about h2 {
     text-indent: 0;
     margin-left: 40px;
@@ -724,7 +755,7 @@ footer {
 
 .contact h1 {
   font-family: 'Saira Condensed',
-  sans-serif;
+    sans-serif;
   font-size: 26px;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -791,3 +822,72 @@ footer {
   font-size: 20px;
 }
 
+@media (min-width: 533px) {
+  .contact .social {
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .contact h1 {
+    font-size: 60px;
+    padding: 30px 0;
+  }
+
+  .contact form,
+  .contact .socials {
+    float: left;
+    width: 50%;
+    padding: 0 20px
+  }
+
+  .contact .social {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .contact input,
+  .contact button,
+  .contact textarea {
+    margin-bottom: 35px;
+
+  }
+
+  .contact input {
+
+    height: 46px;
+    font-size: 24px;
+
+  }
+
+  .contact textarea {
+    height: 180px;
+    font-size: 24px;
+  }
+
+  .contact button {
+    font-size: 20px;
+    line-height: 50px;
+    transition: .3s;
+    cursor: pointer;
+
+  }
+
+  .contact button:hover {
+    color: black;
+    background-color: #fff;
+  }
+}
+
+
+footer {
+  background-color: #29a6dc;
+  color: white;
+  font-family: saira, sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
